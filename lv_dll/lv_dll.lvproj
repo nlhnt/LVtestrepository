@@ -14,14 +14,14 @@
 		<Item Name="power_of_2.vi" Type="VI" URL="../power_of_2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="lv_maths" Type="DLL">
+			<Item Name="lv_maths_x64" Type="DLL">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{7CD7AAE5-2FDB-42EB-B69A-0A932E986CC8}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{F6F67E01-6EB7-437D-9AE7-DBE029250DB1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1A79418B-28EA-4C6D-A4E0-705B875DB0BA}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">lv_maths</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">lv_maths_x64</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -31,8 +31,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{533AA2F9-EB73-4BD8-99C3-B70ACD89704F}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">lv_maths.dll</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/lv_maths.dll</Property>
+				<Property Name="Destination[0].destName" Type="Str">lv_maths_x64.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/lv_maths_x64.dll</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -43,9 +43,10 @@
 				<Property Name="Dll_compatibilityWith2011" Type="Bool">false</Property>
 				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
 				<Property Name="Dll_headerGUID" Type="Str">{E2D42264-EDD7-4384-8B19-F83C46483E90}</Property>
+				<Property Name="Dll_includeTypeLibrary" Type="Bool">true</Property>
 				<Property Name="Dll_libGUID" Type="Str">{3EDEAF88-8E00-4E47-98B7-19D5284573A6}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3A118C6A-14C0-4D9A-81EE-9AC94571A394}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5FD6CBDC-824F-4EEC-9F8E-05923225FD45}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -73,12 +74,12 @@
 				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Politechnika Gdańska: Wydział Elektroniki, Telekomunikacji i Informatyki</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">lv_maths</Property>
-				<Property Name="TgtF_internalName" Type="Str">lv_maths</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">lv_maths_x64</Property>
+				<Property Name="TgtF_internalName" Type="Str">lv_maths_x64</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Politechnika Gdańska: Wydział Elektroniki, Telekomunikacji i Informatyki</Property>
-				<Property Name="TgtF_productName" Type="Str">lv_maths</Property>
+				<Property Name="TgtF_productName" Type="Str">lv_maths_x64</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{81723AF0-BE03-4C3E-8B82-B1CBE8C943A3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">lv_maths.dll</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">lv_maths_x64.dll</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

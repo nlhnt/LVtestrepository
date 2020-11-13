@@ -1,4 +1,7 @@
 #include "extcode.h"
+#define __stdcall
+#define __cdecl
+
 #ifdef __cplusplus
 extern "C" {
 #endif
